@@ -2,41 +2,41 @@ package HW1;
 
 import java.util.Objects;
 
-public class Price {
+public class Price implements Comparable<Price> {
 
-    int price;
+    private int price;
 
     public Price (int price) {
         this.price = price;
     }
-    boolean isNegative() {
+    public boolean isNegative() {
         return this.price < 0;
     }
-    Price add(Price p) {
+    public Price add(Price p) {
         return new Price(this.price + p.price);
     }
 
-    Price subtract(Price p) {
+    public Price subtract(Price p) {
         return new Price(this.price - p.price);
     }
 
-    Price multiply(int n) {
+    public Price multiply(int n) {
         return new Price(this.price * n);
     }
 
-    boolean greaterOrEqual(Price p) {
+    public boolean greaterOrEqual(Price p) {
         return this.price >= p.price;
     }
 
-    boolean lessOrEqual(Price p) {
+    public boolean lessOrEqual(Price p) {
         return this.price <= p.price;
     }
 
-    boolean greaterThan(Price p) {
+    public boolean greaterThan(Price p) {
         return this.price > p.price;
     }
 
-    boolean lessThan(Price p) {
+    public boolean lessThan(Price p) {
         return this.price < p.price;
     }
 
@@ -48,7 +48,8 @@ public class Price {
         return price == price1.price;
     }
 
-    int compareTo(Price p) {
+    @Override
+    public int compareTo(Price p) {
         return this.price - p.price;
     }
 

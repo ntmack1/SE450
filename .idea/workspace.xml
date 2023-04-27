@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0dd11e37-43e5-48b6-9cd2-9f3d9e97e091" name="Changes" comment="Created PriceFactory and Main">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HW1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW1/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/HW1/Price.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW1/Price.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682567136528</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Created PriceFactory and Main">
+      <created>1682568872966</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1682568872966</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
