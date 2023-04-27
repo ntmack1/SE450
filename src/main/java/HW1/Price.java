@@ -53,12 +53,12 @@ public class Price implements Comparable<Price> {
         return this.price - p.price;
     }
 
-    @Override
-    public String toString() {
-        return "Price{" +
-                "price=" + price +
-                '}';
-    }
+//    @Override
+//    public String toString() {
+//        return "Price{" +
+//                "price=" + price +
+//                '}';
+//    }
 
     @Override
     public int hashCode() {

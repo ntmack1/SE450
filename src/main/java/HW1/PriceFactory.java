@@ -3,20 +3,16 @@ package HW1;
 public abstract class PriceFactory {
 
     public static Price makePrice(int value) {
-        Price price = new Price(value * 100);
-
-        return price;
+        return new Price(value);
     }
 
     public static Price makePrice(String stringValueIn) {
-        String removeCommasandDecimal = stringValueIn.replaceAll("[,.]", "");
+        String removeCommasAndDecimal = stringValueIn.replaceAll("[,.]", "");
 
-        String removeDollarSign = removeCommasandDecimal.replaceAll("[$]", "");
+        String removeDollarSign = removeCommasAndDecimal.replaceAll("[$]", "");
 
         int value = Integer.parseInt(removeDollarSign);
 
-        Price price = new Price(value);
-
-        return price;
+        return new Price(value);
     }
 }
