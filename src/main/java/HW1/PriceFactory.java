@@ -3,7 +3,7 @@ package HW1;
 public abstract class PriceFactory {
 
     public static Price makePrice(int value) {
-        Price price = new Price(value);
+        Price price = new Price(value * 100);
 
         return price;
     }

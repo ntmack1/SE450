@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dd11e37-43e5-48b6-9cd2-9f3d9e97e091" name="Changes" comment="Created PriceFactory and Main">
+    <list default="true" id="0dd11e37-43e5-48b6-9cd2-9f3d9e97e091" name="Changes" comment="Updated Main and Price">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/HW1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW1/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/HW1/Price.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW1/Price.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HW1/PriceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW1/PriceFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682568872966</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Updated Main and Price">
+      <created>1682569470714</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1682569470714</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,6 +132,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created Price Class" />
     <MESSAGE value="Created PriceFactory and Main" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created PriceFactory and Main" />
+    <MESSAGE value="Updated Main and Price" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Main and Price" />
   </component>
 </project>

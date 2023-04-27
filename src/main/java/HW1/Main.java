@@ -12,6 +12,7 @@ public class Main {
         Price price6 = PriceFactory.makePrice(12);
 
 
+
         System.out.println(price1.isNegative());
         System.out.println(price2.isNegative());
         System.out.println(price3.isNegative());
